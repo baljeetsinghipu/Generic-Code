@@ -28,11 +28,7 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		test obj = new test();
-		int[][] points = {{0,1},{0,2},{0,5},{0,6},{0,7},{0,0}};
-		int k =3;
-		obj.calculateClosest(points,k);
-		
+		String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
 	}
 
 }
