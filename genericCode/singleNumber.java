@@ -16,7 +16,6 @@ public class singleNumber {
 		{
 			x2^=x1&i;
 			x1^=i;
-			
 			mask = ~(x2&x1);
 			x2&=mask;
 			x1&=mask;
