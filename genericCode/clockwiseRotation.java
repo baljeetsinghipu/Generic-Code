@@ -44,9 +44,7 @@ public class clockwiseRotation {
 				i++;
 				j--;
 			}
-		}
-		
-		
+		}			
 	}
 
 	public static void main(String[] args) {
