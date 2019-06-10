@@ -64,8 +64,6 @@ public class antiClockwiseRotation {
 		obj.rotateImage(image);//calling rotateimage function which will rotate the image by 90 degree (In place).
 		
 		System.out.println(Arrays.deepToString(image));
-
-
 	}
 
 }
