@@ -28,7 +28,7 @@ public class GroupAnagram {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub	
 		GroupAnagram obj = new GroupAnagram();
 		String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
 		List<List<String>> result = obj.anagram(input);

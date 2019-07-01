@@ -12,7 +12,7 @@ public class singleNumber {
 	{
 		int x1=0,x2=0,x3=0,mask=0;
 		
-		for(int i: num) 
+		for(int i: num)
 		{
 			x2^=x1&i;
 			x1^=i;
