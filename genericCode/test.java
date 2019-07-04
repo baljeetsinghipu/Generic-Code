@@ -29,6 +29,10 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
+		
+		String s1="12"+"13";
+		System.out.print(s1);
+
 	}
 
 }

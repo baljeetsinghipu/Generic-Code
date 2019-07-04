@@ -61,7 +61,7 @@ public class countAndSay {
 
 	public static void main(String[] args) {
 		countAndSay obj = new countAndSay();
-		int num =8;
+		int num =30;
 		System.out.print(obj.builder(num));
 	
 	}
