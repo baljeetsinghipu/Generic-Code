@@ -1,5 +1,10 @@
 /*
  * Find the maximum sum of all element which is not consecutive in an unsorted array.
+ * Greedy Approach will not work; Greedy Algorithm: Start with the largest number add the number to the final list and remove its consecutive
+ * number i.e.
+ * 10 9 8 7 6 --> Greedy Algo. will choose --> 10 8 6 which is working perfectly in this scenario.
+ * Let consider another array : 10 5 5 9 8  --> Greedy Algo. will choose 10 9 whereas the optimum solution is 10 5 8. Hence, greedy algorithm
+ * will not work. We need dynamic programming solution which is given below:-
  */
 
 package genericCode;

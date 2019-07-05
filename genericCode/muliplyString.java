@@ -1,4 +1,11 @@
+/*
+ * Multiply two numbers without using multiple operator and large int.
+ * 
+ */
+
+
 package genericCode;
+
 
 public class muliplyString {
 	public String multiply(String num1, String num2) 
