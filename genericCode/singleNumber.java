@@ -22,7 +22,7 @@ public class singleNumber {
 			
 		}
 		
-		return x2;
+		return x2|x1;  // or return x1 or return x2;
 	}
 
 	public static void main(String[] args) {
