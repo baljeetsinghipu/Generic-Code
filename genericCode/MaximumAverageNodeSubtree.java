@@ -14,8 +14,7 @@ class Node
     { 
         data = item; 
         left = right = null; 
-    } 
-} 
+    } }
   
 class MaximumAverageNodeSubtree 
 { 
