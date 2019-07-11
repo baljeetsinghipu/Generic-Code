@@ -1,3 +1,18 @@
+/* Remove Invalid Parentheses
+ * 
+ * Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
+ * Note: The input string may contain letters other than the parentheses ( and ).
+ * 
+ * Input: "()())()"
+ * Output: ["()()()", "(())()"]
+ * 
+ * Input: "(a)())()"
+ * Output: ["(a)()()", "(a())()"]
+ * 
+ * 
+ */
+
+
 package genericCode;
 
 import java.util.*;
@@ -15,14 +30,14 @@ public class InvalidParentheses {
 	
 	void helper(String str, List<String> result,int i,int j,char open,char close)
 	{
-		int closeNum=0;
-		int openNum=0;
+		int closeNum=0; //close bracket counter;
+		int openNum=0; // open bracket counter
 		for(int k=i;k<str.length();k++)
 		{
 			
 			if(str.charAt(k)==close) closeNum++;
 			else if(str.charAt(k)==open) openNum++;
-			if(closeNum>openNum) 
+			if(closeNum>openNum)  // when close bracket become more than open bracket, we need to adjust to string. 
 			{
 				for(int m=j;m<k;m++) 
 				{
@@ -46,16 +61,11 @@ public class InvalidParentheses {
 
 	public static void main(String[] args) {
 		InvalidParentheses obj = new InvalidParentheses();
-		String str = "()())()";
+//		String str = "()())()";
+		String str = "(()(()";
 		List<String> result=obj.parenthesesCorrector(str);
+		System.out.print(result.toString());
 		
-		for(String s : result) 
-		{
-			System.out.print(s);
-			System.out.println(" ");
-		}
-		
-		// TODO Auto-generated method stub
 
 	}
 
