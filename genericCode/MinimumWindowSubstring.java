@@ -8,7 +8,6 @@ Input: S = "ADOBECODEBANC", T = "ABC"
 Output: "BANC"
 
 */
-
 import java.util.HashMap;
 public class MinimumWindowSubstring {
 	
